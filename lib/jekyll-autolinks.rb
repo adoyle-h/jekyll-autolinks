@@ -4,6 +4,7 @@ require 'rinku'
 module Jekyll
   class Autolinks < Jekyll::Generator
     safe true
+    priority :low
 
     def initialize(config)
       config['autolinks'] ||= {}
