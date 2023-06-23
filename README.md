@@ -29,7 +29,7 @@ Modified based on [ivantsepp/jekyll-autolink_email](https://github.com/ivantsepp
 Autolinking is done by [Rinku](https://github.com/vmg/rinku) so visit that gem for a more in-depth explanation of the configuration options:
 
 ```yml
-autolink_email:
+autolinks:
   link_attr: 'target="_blank"'
   skip_tags: ["a", "pre", "code", "kbd", "script"]
 ```
