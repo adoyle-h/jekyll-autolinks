@@ -24,8 +24,6 @@ Modified based on [ivantsepp/jekyll-autolink_email](https://github.com/ivantsepp
       - jekyll-autolinks
     ```
 
-## Usage
-
 ## Configuration
 
 Autolinking is done by [Rinku](https://github.com/vmg/rinku) so visit that gem for a more in-depth explanation of the configuration options:
@@ -40,7 +38,7 @@ autolink_email:
 
     ```
     link_attr: 'target="_blank" class="my-link"'
-# hi.com => '<a href="http://hi.com" target="_blank" class="my-link">hi.com</a>'
+    # hi.com => '<a href="http://hi.com" target="_blank" class="my-link">hi.com</a>'
     ```
 
 - `skip_tags` is a list of strings with the names of HTML tags that will be skipped when autolinking. If nil, this defaults to the value of the global Rinku.skip_tags, which is initially `["a", "pre", "code", "kbd", "script"]`.
